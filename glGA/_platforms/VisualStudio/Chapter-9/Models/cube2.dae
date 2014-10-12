@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Giwrgakis</author>
+      <authoring_tool>OpenCOLLADA2011 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=1;relativePaths=1;copyTextures=1;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=1;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=1;
+			exportCameras=1;exportJointsAndSkin=1;exportAnimations=1;exportInvisibleNodes=1;exportDefaultCameras=1;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=1;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///Users/Giwrgakis/MyProjects/3DModels/maya/default/untitled</source_data>
+    </contributor>
+    <created>2012-11-28T19:35:22</created>
+    <modified>2012-11-28T19:35:22</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_lights>
+    <light id="light-lib" name="light">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>light</originalMayaNodeId>
+        </technique>
+      </extra>
+    </light>
+    <light id="pointLightShape1-lib" name="pointLightShape1">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>pointLightShape1</originalMayaNodeId>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_cameras>
+    <camera id="perspShape" name="perspShape">
+      <optics>
+        <technique_common>
+          <perspective>
+            <yfov sid="yfov">37.84928</yfov>
+            <aspect_ratio>1.5</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">1000</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <film_fit>1</film_fit>
+          <film_fit_offset sid="film_fit_offset">0</film_fit_offset>
+          <film_offsetX sid="horizontal_film_offset">0</film_offsetX>
+          <film_offsetY sid="vertical_film_offset">0</film_offsetY>
+          <horizontal_aperture sid="horizontal_aperture">3.599993</horizontal_aperture>
+          <lens_squeeze sid="lens_squeeze">1</lens_squeeze>
+          <originalMayaNodeId>perspShape</originalMayaNodeId>
+          <vertical_aperture sid="vertical_aperture">2.399995</vertical_aperture>
+        </technique>
+      </extra>
+    </camera>
+    <camera id="topShape" name="topShape">
+      <optics>
+        <technique_common>
+          <orthographic>
+            <xmag sid="xmag">15</xmag>
+            <aspect_ratio>1.5</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">1000</zfar>
+          </orthographic>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <film_fit>1</film_fit>
+          <film_fit_offset sid="film_fit_offset">0</film_fit_offset>
+          <film_offsetX sid="horizontal_film_offset">0</film_offsetX>
+          <film_offsetY sid="vertical_film_offset">0</film_offsetY>
+          <horizontal_aperture sid="horizontal_aperture">3.599993</horizontal_aperture>
+          <lens_squeeze sid="lens_squeeze">1</lens_squeeze>
+          <originalMayaNodeId>topShape</originalMayaNodeId>
+          <vertical_aperture sid="vertical_aperture">2.399995</vertical_aperture>
+        </technique>
+      </extra>
+    </camera>
+    <camera id="frontShape" name="frontShape">
+      <optics>
+        <technique_common>
+          <orthographic>
+            <xmag sid="xmag">15</xmag>
+            <aspect_ratio>1.5</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">1000</zfar>
+          </orthographic>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <film_fit>1</film_fit>
+          <film_fit_offset sid="film_fit_offset">0</film_fit_offset>
+          <film_offsetX sid="horizontal_film_offset">0</film_offsetX>
+          <film_offsetY sid="vertical_film_offset">0</film_offsetY>
+          <horizontal_aperture sid="horizontal_aperture">3.599993</horizontal_aperture>
+          <lens_squeeze sid="lens_squeeze">1</lens_squeeze>
+          <originalMayaNodeId>frontShape</originalMayaNodeId>
+          <vertical_aperture sid="vertical_aperture">2.399995</vertical_aperture>
+        </technique>
+      </extra>
+    </camera>
+    <camera id="sideShape" name="sideShape">
+      <optics>
+        <technique_common>
+          <orthographic>
+            <xmag sid="xmag">15</xmag>
+            <aspect_ratio>1.5</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">1000</zfar>
+          </orthographic>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <film_fit>1</film_fit>
+          <film_fit_offset sid="film_fit_offset">0</film_fit_offset>
+          <film_offsetX sid="horizontal_film_offset">0</film_offsetX>
+          <film_offsetY sid="vertical_film_offset">0</film_offsetY>
+          <horizontal_aperture sid="horizontal_aperture">3.599993</horizontal_aperture>
+          <lens_squeeze sid="lens_squeeze">1</lens_squeeze>
+          <originalMayaNodeId>sideShape</originalMayaNodeId>
+          <vertical_aperture sid="vertical_aperture">2.399995</vertical_aperture>
+        </technique>
+      </extra>
+    </camera>
+    <camera id="testCameraShape" name="testCameraShape">
+      <optics>
+        <technique_common>
+          <perspective>
+            <yfov sid="yfov">37.8501</yfov>
+            <aspect_ratio>1</aspect_ratio>
+            <znear sid="znear">0.00999999</znear>
+            <zfar sid="zfar">1000</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <film_fit>1</film_fit>
+          <film_fit_offset sid="film_fit_offset">0</film_fit_offset>
+          <film_offsetX sid="horizontal_film_offset">0</film_offsetX>
+          <film_offsetY sid="vertical_film_offset">0</film_offsetY>
+          <horizontal_aperture sid="horizontal_aperture">2.399995</horizontal_aperture>
+          <lens_squeeze sid="lens_squeeze">1</lens_squeeze>
+          <originalMayaNodeId>testCameraShape</originalMayaNodeId>
+          <vertical_aperture sid="vertical_aperture">2.399995</vertical_aperture>
+        </technique>
+      </extra>
+    </camera>
+  </library_cameras>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+    <material id="lambert3" name="lambert3">
+      <instance_effect url="#lambert3-fx"/>
+    </material>
+    <material id="lambert2" name="lambert2">
+      <instance_effect url="#lambert2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4 0.4 0.4 1</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lambert2-fx">
+      <profile_COMMON>
+        <newparam sid="file3-surface">
+          <surface type="2D">
+            <init_from>file3</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file3-sampler">
+          <sampler2D>
+            <source>file3-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file3-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU sid="coverageU">1</coverageU>
+                    <coverageV sid="coverageV">1</coverageV>
+                    <fast sid="fast">0</fast>
+                    <mirrorU sid="mirrorU">0</mirrorU>
+                    <mirrorV sid="mirrorV">0</mirrorV>
+                    <noiseU sid="noiseU">0</noiseU>
+                    <noiseV sid="noiseV">0</noiseV>
+                    <offsetU sid="offsetU">0</offsetU>
+                    <offsetV sid="offsetV">0</offsetV>
+                    <repeatU sid="repeatU">1</repeatU>
+                    <repeatV sid="repeatV">1</repeatV>
+                    <rotateFrame sid="rotateFrame">0</rotateFrame>
+                    <rotateUV sid="rotateUV">0</rotateUV>
+                    <stagger sid="stagger">0</stagger>
+                    <translateFrameU sid="translateFrameU">0</translateFrameU>
+                    <translateFrameV sid="translateFrameV">0</translateFrameV>
+                    <wrapU sid="wrapU">1</wrapU>
+                    <wrapV sid="wrapV">1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lambert3-fx">
+      <profile_COMMON>
+        <newparam sid="file3-surface">
+          <surface type="2D">
+            <init_from>file3</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file3-sampler">
+          <sampler2D>
+            <source>file3-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.2945144 0.2945144 0.2945144 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file3-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU sid="coverageU">1</coverageU>
+                    <coverageV sid="coverageV">1</coverageV>
+                    <fast sid="fast">0</fast>
+                    <mirrorU sid="mirrorU">0</mirrorU>
+                    <mirrorV sid="mirrorV">0</mirrorV>
+                    <noiseU sid="noiseU">0</noiseU>
+                    <noiseV sid="noiseV">0</noiseV>
+                    <offsetU sid="offsetU">0</offsetU>
+                    <offsetV sid="offsetV">0</offsetV>
+                    <repeatU sid="repeatU">1</repeatU>
+                    <repeatV sid="repeatV">1</repeatV>
+                    <rotateFrame sid="rotateFrame">0</rotateFrame>
+                    <rotateUV sid="rotateUV">0</rotateUV>
+                    <stagger sid="stagger">0</stagger>
+                    <translateFrameU sid="translateFrameU">0</translateFrameU>
+                    <translateFrameV sid="translateFrameV">0</translateFrameV>
+                    <wrapU sid="wrapU">1</wrapU>
+                    <wrapV sid="wrapV">1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="file3" name="file3">
+      <init_from>./duckCM.tga</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>file3</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="box-lib" name="box">
+      <mesh>
+        <source id="box-lib-positions" name="box-lib-positions">
+          <float_array id="box-lib-positions-array" count="24">-0.5 0.5 0.5 0.5 0.5 0.5 -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5</float_array>
+          <technique_common>
+            <accessor source="#box-lib-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="box-lib-normals" name="box-lib-normals">
+          <float_array id="box-lib-normals-array" count="72">0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0.9999999 0 0 0 0.9999999 0 0.9999999 0 0 0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999</float_array>
+          <technique_common>
+            <accessor source="#box-lib-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="box-lib-map1" name="box-lib-map1">
+          <float_array id="box-lib-map1-array" count="16">0 1 0 0 1 0 1 1 1 1 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#box-lib-map1-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="box-lib-vertices" name="box-lib-vertices">
+          <input semantic="POSITION" source="#box-lib-positions"/>
+        </vertices>
+        <triangles material="BlueSG" count="12">
+          <input semantic="VERTEX" source="#box-lib-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#box-lib-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#box-lib-map1" offset="2" set="0"/>
+          <p>0 0 0 2 1 1 1 3 3 1 3 3 2 1 1 3 2 2 0 4 0 1 5 3 4 7 5 4 7 5 1 5 3 5 6 4 6 8 6 7 9 7 2 11 1 2 11 1 7 9 7 3 10 2 0 12 0 4 13 5 2 15 1 2 15 1 4 13 5 6 14 6 3 16 2 7 17 7 1 19 3 1 19 3 7 17 7 5 18 4 5 20 4 7 21 7 4 23 5 4 23 5 7 21 7 6 22 6</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>box</originalMayaNodeId>
+          <double_sided>0</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="box-lib_1" name="box_reference">
+      <mesh>
+        <source id="box-lib_1-positions" name="box-lib_1-positions">
+          <float_array id="box-lib_1-positions-array" count="24">-0.5 0.5 0.5 0.5 0.5 0.5 -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5</float_array>
+          <technique_common>
+            <accessor source="#box-lib_1-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="box-lib_1-normals" name="box-lib_1-normals">
+          <float_array id="box-lib_1-normals-array" count="72">0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0.9999999 0 0 0 0.9999999 0 0.9999999 0 0 0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999</float_array>
+          <technique_common>
+            <accessor source="#box-lib_1-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="box-lib_1-vertices" name="box-lib_1-vertices">
+          <input semantic="POSITION" source="#box-lib_1-positions"/>
+        </vertices>
+        <triangles material="lambert2SG" count="12">
+          <input semantic="VERTEX" source="#box-lib_1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#box-lib_1-normals" offset="1"/>
+          <p>0 0 2 1 1 3 1 3 2 1 3 2 0 4 1 5 4 7 4 7 1 5 5 6 6 8 7 9 2 11 2 11 7 9 3 10 0 12 4 13 2 15 2 15 4 13 6 14 3 16 7 17 1 19 1 19 7 17 5 18 5 20 7 21 4 23 4 23 7 21 6 22</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>box_reference</originalMayaNodeId>
+          <double_sided>0</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="persp" name="persp" type="NODE">
+        <matrix sid="transform">0.9477684 -0.01190121 0.3187372 1.532145 0 0.9993036 0.03731263 0.179359 -0.3189593 -0.03536373 0.9471084 4.552678 0 0 0 1</matrix>
+        <instance_camera url="#perspShape"/>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>persp</originalMayaNodeId>
+            <visibility>0</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node id="top" name="top" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 0 1 100.1 0 -1 0 0 0 0 0 1</matrix>
+        <instance_camera url="#topShape"/>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>top</originalMayaNodeId>
+            <visibility>0</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node id="front" name="front" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 100.1 0 0 0 1</matrix>
+        <instance_camera url="#frontShape"/>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>front</originalMayaNodeId>
+            <visibility>0</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node id="side" name="side" type="NODE">
+        <matrix sid="transform">0 0 1 100.1 0 1 0 0 -1 0 0 0 0 0 0 1</matrix>
+        <instance_camera url="#sideShape"/>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>side</originalMayaNodeId>
+            <visibility>0</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node id="Light" name="Light" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 1 0 0 1 0 0 0 0 1</matrix>
+        <instance_light url="#light-lib"/>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>Light</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="Box" name="Box" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#box-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="BlueSG" target="#lambert3">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>Box</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="testCamera" name="testCamera" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 -5 0 0 0 1</matrix>
+        <instance_camera url="#testCameraShape"/>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>testCamera</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="pointLight1" name="pointLight1" type="NODE">
+        <matrix sid="transform">1 0 0 3 0 1 0 4 0 0 1 10 0 0 0 1</matrix>
+        <instance_light url="#pointLightShape1-lib"/>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>pointLight1</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="Box_1" name="Box_reference" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#box-lib_1">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert2SG" target="#lambert2">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>Box_reference</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

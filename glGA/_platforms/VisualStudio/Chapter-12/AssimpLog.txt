@@ -1,0 +1,19 @@
+Info,  T4916: Load ./Models/sphere.dae
+Debug, T4916: Assimp 3.1.0 x86 msvc debug noboost shared singlethreaded
+Info,  T4916: Found a matching importer for this file format
+Info,  T4916: Import root directory is './Models\'
+Debug, T4916: Collada schema version is 1.4.n
+Info,  T4916: Entering post processing pipeline
+Debug, T4916: FlipUVsProcess begin
+Debug, T4916: FlipUVsProcess finished
+Debug, T4916: TriangulateProcess begin
+Debug, T4916: TriangulateProcess finished. There was nothing to be done.
+Debug, T4916: SortByPTypeProcess begin
+Info,  T4916: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T4916: SortByPTypeProcess finished
+Debug, T4916: GenFaceNormalsProcess begin
+Debug, T4916: GenFaceNormalsProcess finished. Normals are already there
+Debug, T4916: Generate spatially-sorted vertex cache
+Debug, T4916: CalcTangentsProcess begin
+Info,  T4916: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T4916: Leaving post processing pipeline

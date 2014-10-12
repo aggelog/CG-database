@@ -1,0 +1,59 @@
+﻿Build started 10/11/2014 12:37:33 PM.
+     1>Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\tools\assimp_view\assimp_viewer.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/code/Debug/assimpd.dll C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/tools/assimp_view/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule C:/Users/aggelog/Desktop/assimp-3.1.1/tools/assimp_view/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\tools\assimp_view\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\include" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code\BoostWorkaround" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\zlib" /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\contrib\zlib" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ASSIMP_BUILD_BOOST_WORKAROUND /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"assimp_viewer.dir\Debug\\" /Fd"assimp_viewer.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\AnimEvaluator.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\Background.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\Display.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\HelpDialog.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\Input.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\LogDisplay.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\LogWindow.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\Material.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\MeshRenderer.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\MessageProc.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\Normals.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\SceneAnimator.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\Shaders.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\stdafx.cpp"
+         AnimEvaluator.cpp
+         Background.cpp
+         Display.cpp
+         HelpDialog.cpp
+         Input.cpp
+         LogDisplay.cpp
+         LogWindow.cpp
+         Material.cpp
+         MeshRenderer.cpp
+         MessageProc.cpp
+         Normals.cpp
+         SceneAnimator.cpp
+         Shaders.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\include" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code\BoostWorkaround" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\zlib" /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\contrib\zlib" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ASSIMP_BUILD_BOOST_WORKAROUND /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"assimp_viewer.dir\Debug\/assimp_view.cpp.obj" /Fd"assimp_viewer.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\assimp_view.cpp"
+         assimp_view.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _WINDOWS /D _DEBUG /D ASSIMP_BUILD_BOOST_WORKAROUND /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\include" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code\BoostWorkaround" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\zlib" /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\contrib\zlib" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /nologo /fo"assimp_viewer.dir\Debug\assimp_view.res" C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_view\assimp_view.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\tools\assimp_view\Debug\assimp_viewerd.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp" /LIBPATH:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/Debug" /LIBPATH:/lib /LIBPATH:/lib/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\code\Debug\assimpd.lib "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib" "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib" comctl32.lib winmm.lib ..\..\contrib\zlib\Debug\zlibstaticd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/tools/assimp_view/Debug/assimp_viewerd.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/tools/assimp_view/Debug/assimp_viewerd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug assimp_viewer.dir\Debug\assimp_view.res
+         assimp_viewer.dir\Debug\AnimEvaluator.obj
+         assimp_viewer.dir\Debug\Background.obj
+         assimp_viewer.dir\Debug\Display.obj
+         assimp_viewer.dir\Debug\HelpDialog.obj
+         assimp_viewer.dir\Debug\Input.obj
+         assimp_viewer.dir\Debug\LogDisplay.obj
+         assimp_viewer.dir\Debug\LogWindow.obj
+         assimp_viewer.dir\Debug\Material.obj
+         assimp_viewer.dir\Debug\MeshRenderer.obj
+         assimp_viewer.dir\Debug\MessageProc.obj
+         assimp_viewer.dir\Debug\Normals.obj
+         assimp_viewer.dir\Debug\SceneAnimator.obj
+         assimp_viewer.dir\Debug\Shaders.obj
+         assimp_viewer.dir\Debug\stdafx.obj
+         assimp_viewer.dir\Debug\/assimp_view.cpp.obj
+         assimp_viewer.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\tools\assimp_view\Debug\assimp_viewerd.exe
+     1>Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\tools\assimp_view\assimp_viewer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:30.74

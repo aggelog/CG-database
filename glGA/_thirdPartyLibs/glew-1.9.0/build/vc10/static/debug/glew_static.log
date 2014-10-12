@@ -1,0 +1,19 @@
+﻿Build started 10/24/2012 5:10:23 PM.
+     1>Project "C:\Temp\Users\GP\glGA\_thirdPartyLibs\glew-1.9.0\build\vc10\glew_static.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "static/debug/glew_static.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         glew_static.vcxproj -> C:\Temp\Users\GP\glGA\_thirdPartyLibs\glew-1.9.0\build\vc10\../../lib/glew32sd.lib
+       FinalizeBuildStatus:
+         Deleting file "static/debug/glew_static.unsuccessfulbuild".
+         Touching "static/debug/glew_static.lastbuildstate".
+     1>Done Building Project "C:\Temp\Users\GP\glGA\_thirdPartyLibs\glew-1.9.0\build\vc10\glew_static.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

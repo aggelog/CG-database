@@ -1,0 +1,3 @@
+Info,  T5276: Load ./Models/box1/models/CargoCube01.dae
+Debug, T5276: Assimp 3.0.1262 x86 msvc shared singlethreaded
+Error, T5276: Unable to open file "./Models/box1/models/CargoCube01.dae".

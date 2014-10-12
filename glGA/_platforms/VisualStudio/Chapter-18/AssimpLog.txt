@@ -1,0 +1,19 @@
+Info,  T7528: Load ./Models/TEAPOT/models/Untitled-1.dae
+Debug, T7528: Assimp 3.1.0 x86 msvc debug noboost shared singlethreaded
+Info,  T7528: Found a matching importer for this file format
+Info,  T7528: Import root directory is './Models/TEAPOT/models\'
+Debug, T7528: Collada schema version is 1.4.n
+Info,  T7528: Entering post processing pipeline
+Debug, T7528: FlipUVsProcess begin
+Debug, T7528: FlipUVsProcess finished
+Debug, T7528: TriangulateProcess begin
+Debug, T7528: TriangulateProcess finished. There was nothing to be done.
+Debug, T7528: SortByPTypeProcess begin
+Info,  T7528: Points: 0, Lines: 0, Triangles: 4, Polygons: 0 (Meshes, X = removed)
+Debug, T7528: SortByPTypeProcess finished
+Debug, T7528: GenFaceNormalsProcess begin
+Debug, T7528: GenFaceNormalsProcess finished. Normals are already there
+Debug, T7528: Generate spatially-sorted vertex cache
+Debug, T7528: CalcTangentsProcess begin
+Info,  T7528: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T7528: Leaving post processing pipeline

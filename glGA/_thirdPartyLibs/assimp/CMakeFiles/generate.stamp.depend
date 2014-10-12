@@ -1,0 +1,39 @@
+# CMake generation dependency list for this directory.
+C:/Users/aggelog/Desktop/assimp-3.1.1/CMakeLists.txt
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/3.0.2/CMakeSystem.cmake
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/3.0.2/CMakeCCompiler.cmake
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/3.0.2/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/Windows-MSVC.cmake
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/3.0.2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/aggelog/Desktop/assimp-3.1.1/revision.h.in
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindPkgConfig.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeParseArguments.cmake
+C:/Users/aggelog/Desktop/assimp-3.1.1/cmake-modules/PrecompiledHeader.cmake
+C:/Users/aggelog/Desktop/assimp-3.1.1/assimp.pc.in
+C:/Users/aggelog/Desktop/assimp-3.1.1/cmake-modules/cmake_uninstall.cmake.in
+C:/Users/aggelog/Desktop/assimp-3.1.1/assimp-config.cmake.in
+C:/Users/aggelog/Desktop/assimp-3.1.1/assimp-config-version.cmake.in
+C:/Users/aggelog/Desktop/assimp-3.1.1/cmake-modules/FindZLIB.cmake
+C:/Users/aggelog/Desktop/assimp-3.1.1/cmake-modules/FindPkgMacros.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindPkgConfig.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CheckFunctionExists.cmake

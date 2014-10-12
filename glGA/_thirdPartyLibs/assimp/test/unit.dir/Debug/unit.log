@@ -1,0 +1,173 @@
+﻿Build started 10/11/2014 12:37:37 PM.
+     1>Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\test\unit.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/aggelog/Desktop/assimp-3.1.1/test/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\test\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\include" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code\BoostWorkaround" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\zlib" /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\contrib\zlib" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\include" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ASSIMP_BUILD_BOOST_WORKAROUND /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"unit.dir\Debug\\" /Fd"unit.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\CCompilerTest.c"
+         CCompilerTest.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\include" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code\BoostWorkaround" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\zlib" /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\contrib\zlib" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\include" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ASSIMP_BUILD_BOOST_WORKAROUND /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"unit.dir\Debug\\" /Fd"unit.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\Main.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\UnitTestPCH.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utFindDegenerates.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utFindInvalidData.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utFixInfacingNormals.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utGenNormals.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utImporter.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utImproveCacheLocality.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utJoinVertices.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utLimitBoneWeights.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utMaterialSystem.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utPretransformVertices.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utRemoveComments.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utRemoveComponent.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utRemoveRedundantMaterials.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utScenePreprocessor.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utSharedPPData.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utSortByPType.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utSplitLargeMeshes.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utTargetAnimation.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utTextureTransform.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utTriangulate.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utVertexTriangleAdjacency.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utNoBoostTest.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\BoostWorkaround\tupletest.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\AdditionalMessage.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\Asserter.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\BeOsDynamicLibraryManager.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\BriefTestProgressListener.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\CompilerOutputter.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\DefaultProtector.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\DllMain.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\DynamicLibraryManager.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\DynamicLibraryManagerException.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\Exception.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\Message.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\PlugInManager.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\PlugInParameters.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\Protector.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\ProtectorChain.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\RepeatedTest.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\ShlDynamicLibraryManager.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\SourceLine.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\StringTools.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\SynchronizedObject.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\Test.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestAssert.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestCase.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestCaseDecorator.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestComposite.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestDecorator.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestFactoryRegistry.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestFailure.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestLeaf.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestNamer.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestPath.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestPlugInDefaultImpl.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestResult.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestResultCollector.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestRunner.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestSetUp.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestSuccessListener.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestSuite.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TestSuiteBuilderContext.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TextOutputter.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TextTestProgressListener.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TextTestResult.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TextTestRunner.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\TypeInfoHelper.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\UnixDynamicLibraryManager.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\Win32DynamicLibraryManager.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\XmlDocument.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\XmlElement.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\XmlOutputter.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\cppunit-1.12.1\src\cppunit\XmlOutputterHook.cpp"
+         Main.cpp
+         UnitTestPCH.cpp
+         utFindDegenerates.cpp
+         utFindInvalidData.cpp
+         utFixInfacingNormals.cpp
+         utGenNormals.cpp
+         utImporter.cpp
+         utImproveCacheLocality.cpp
+         utJoinVertices.cpp
+         utLimitBoneWeights.cpp
+         utMaterialSystem.cpp
+         utPretransformVertices.cpp
+         utRemoveComments.cpp
+         utRemoveComponent.cpp
+         utRemoveRedundantMaterials.cpp
+         utScenePreprocessor.cpp
+     1>C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utPretransformVertices.cpp(14): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utRemoveComments.cpp(30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>C:\Users\aggelog\Desktop\assimp-3.1.1\test\unit\utRemoveComments.cpp(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+         utSharedPPData.cpp
+         utSortByPType.cpp
+         utSplitLargeMeshes.cpp
+         utTargetAnimation.cpp
+         utTextureTransform.cpp
+         utTriangulate.cpp
+         utVertexTriangleAdjacency.cpp
+         utNoBoostTest.cpp
+         tupletest.cpp
+         AdditionalMessage.cpp
+         Asserter.cpp
+         BeOsDynamicLibraryManager.cpp
+         BriefTestProgressListener.cpp
+         CompilerOutputter.cpp
+         DefaultProtector.cpp
+         DllMain.cpp
+         DynamicLibraryManager.cpp
+         DynamicLibraryManagerException.cpp
+         Exception.cpp
+         Message.cpp
+         PlugInManager.cpp
+         PlugInParameters.cpp
+         Protector.cpp
+         ProtectorChain.cpp
+         RepeatedTest.cpp
+         ShlDynamicLibraryManager.cpp
+         SourceLine.cpp
+         StringTools.cpp
+         SynchronizedObject.cpp
+         Test.cpp
+         TestAssert.cpp
+         TestCase.cpp
+         TestCaseDecorator.cpp
+         TestComposite.cpp
+         TestDecorator.cpp
+         TestFactoryRegistry.cpp
+         TestFailure.cpp
+         TestLeaf.cpp
+         TestNamer.cpp
+         TestPath.cpp
+         TestPlugInDefaultImpl.cpp
+         TestResult.cpp
+         TestResultCollector.cpp
+         TestRunner.cpp
+         TestSetUp.cpp
+         TestSuccessListener.cpp
+         TestSuite.cpp
+         TestSuiteBuilderContext.cpp
+         TextOutputter.cpp
+         TextTestProgressListener.cpp
+         TextTestResult.cpp
+         TextTestRunner.cpp
+         TypeInfoHelper.cpp
+         UnixDynamicLibraryManager.cpp
+         Win32DynamicLibraryManager.cpp
+         XmlDocument.cpp
+         XmlElement.cpp
+         XmlOutputter.cpp
+         XmlOutputterHook.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\test\Debug\unit.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp" /LIBPATH:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/Debug" /LIBPATH:/lib /LIBPATH:/lib/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\code\Debug\assimpd.lib "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib" "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib" comctl32.lib Winmm.lib ..\contrib\zlib\Debug\zlibstaticd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/test/Debug/unit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/test/Debug/unit.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug unit.dir\Debug\CCompilerTest.obj
+         unit.dir\Debug\Main.obj
+         unit.dir\Debug\UnitTestPCH.obj
+         unit.dir\Debug\utFindDegenerates.obj
+         unit.dir\Debug\utFindInvalidData.obj
+         unit.dir\Debug\utFixInfacingNormals.obj
+         unit.dir\Debug\utGenNormals.obj
+         unit.dir\Debug\utImporter.obj
+         unit.dir\Debug\utImproveCacheLocality.obj
+         unit.dir\Debug\utJoinVertices.obj
+         unit.dir\Debug\utLimitBoneWeights.obj
+         unit.dir\Debug\utMaterialSystem.obj
+         unit.dir\Debug\utPretransformVertices.obj
+         unit.dir\Debug\utRemoveComments.obj
+         unit.dir\Debug\utRemoveComponent.obj
+         unit.dir\Debug\utRemoveRedundantMaterials.obj
+         unit.dir\Debug\utScenePreprocessor.obj
+         unit.dir\Debug\utSharedPPData.obj
+         unit.dir\Debug\utSortByPType.obj
+         unit.dir\Debug\utSplitLargeMeshes.obj
+         unit.dir\Debug\utTargetAnimation.obj
+         unit.dir\Debug\utTextureTransform.obj
+         unit.dir\Debug\utTriangulate.obj
+         unit.dir\Debug\utVertexTriangleAdjacency.obj
+         unit.dir\Debug\utNoBoostTest.obj
+         unit.dir\Debug\tupletest.obj
+         unit.dir\Debug\AdditionalMessage.obj
+         unit.dir\Debug\Asserter.obj
+         unit.dir\Debug\BeOsDynamicLibraryManager.obj
+         unit.dir\Debug\BriefTestProgressListener.obj
+         unit.dir\Debug\CompilerOutputter.obj
+         unit.dir\Debug\DefaultProtector.obj
+         unit.dir\Debug\DllMain.obj
+         unit.dir\Debug\DynamicLibraryManager.obj
+         unit.dir\Debug\DynamicLibraryManagerException.obj
+         unit.dir\Debug\Exception.obj
+         unit.dir\Debug\Message.obj
+         unit.dir\Debug\PlugInManager.obj
+         unit.dir\Debug\PlugInParameters.obj
+         unit.dir\Debug\Protector.obj
+         unit.dir\Debug\ProtectorChain.obj
+         unit.dir\Debug\RepeatedTest.obj
+         unit.dir\Debug\ShlDynamicLibraryManager.obj
+         unit.dir\Debug\SourceLine.obj
+         unit.dir\Debug\StringTools.obj
+         unit.dir\Debug\SynchronizedObject.obj
+         unit.dir\Debug\Test.obj
+         unit.dir\Debug\TestAssert.obj
+         unit.dir\Debug\TestCase.obj
+         unit.dir\Debug\TestCaseDecorator.obj
+         unit.dir\Debug\TestComposite.obj
+         unit.dir\Debug\TestDecorator.obj
+         unit.dir\Debug\TestFactoryRegistry.obj
+         unit.dir\Debug\TestFailure.obj
+         unit.dir\Debug\TestLeaf.obj
+         unit.dir\Debug\TestNamer.obj
+         unit.dir\Debug\TestPath.obj
+         unit.dir\Debug\TestPlugInDefaultImpl.obj
+         unit.dir\Debug\TestResult.obj
+         unit.dir\Debug\TestResultCollector.obj
+         unit.dir\Debug\TestRunner.obj
+         unit.dir\Debug\TestSetUp.obj
+         unit.dir\Debug\TestSuccessListener.obj
+         unit.dir\Debug\TestSuite.obj
+         unit.dir\Debug\TestSuiteBuilderContext.obj
+         unit.dir\Debug\TextOutputter.obj
+         unit.dir\Debug\TextTestProgressListener.obj
+         unit.dir\Debug\TextTestResult.obj
+         unit.dir\Debug\TextTestRunner.obj
+         unit.dir\Debug\TypeInfoHelper.obj
+         unit.dir\Debug\UnixDynamicLibraryManager.obj
+         unit.dir\Debug\Win32DynamicLibraryManager.obj
+         unit.dir\Debug\XmlDocument.obj
+         unit.dir\Debug\XmlElement.obj
+         unit.dir\Debug\XmlOutputter.obj
+         unit.dir\Debug\XmlOutputterHook.obj
+         unit.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\test\Debug\unit.exe
+     1>Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\test\unit.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.06

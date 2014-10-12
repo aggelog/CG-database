@@ -1,0 +1,8 @@
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/ZERO_CHECK.dir
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/code/CMakeFiles/assimp.dir
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/tools/assimp_view/CMakeFiles/assimp_viewer.dir
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/uninstall.dir
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/test/CMakeFiles/unit.dir
+C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/contrib/zlib/CMakeFiles/zlibstatic.dir

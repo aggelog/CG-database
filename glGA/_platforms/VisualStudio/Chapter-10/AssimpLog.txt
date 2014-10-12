@@ -1,0 +1,19 @@
+Info,  T7592: Load ./Models/box1/models/CargoCube01.dae
+Debug, T7592: Assimp 3.1.0 x86 msvc debug noboost shared singlethreaded
+Info,  T7592: Found a matching importer for this file format
+Info,  T7592: Import root directory is './Models/box1/models\'
+Debug, T7592: Collada schema version is 1.4.n
+Info,  T7592: Entering post processing pipeline
+Debug, T7592: FlipUVsProcess begin
+Debug, T7592: FlipUVsProcess finished
+Debug, T7592: TriangulateProcess begin
+Debug, T7592: TriangulateProcess finished. There was nothing to be done.
+Debug, T7592: SortByPTypeProcess begin
+Info,  T7592: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T7592: SortByPTypeProcess finished
+Debug, T7592: GenFaceNormalsProcess begin
+Debug, T7592: GenFaceNormalsProcess finished. Normals are already there
+Debug, T7592: Generate spatially-sorted vertex cache
+Debug, T7592: CalcTangentsProcess begin
+Info,  T7592: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T7592: Leaving post processing pipeline

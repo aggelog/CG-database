@@ -1,0 +1,18 @@
+Info,  T5552: Load ./Models/Cruisership2012/Cruiser 2012.obj
+Debug, T5552: Assimp 3.1.0 x86 msvc debug noboost shared singlethreaded
+Info,  T5552: Found a matching importer for this file format
+Info,  T5552: Import root directory is './Models/Cruisership2012\'
+Info,  T5552: Entering post processing pipeline
+Debug, T5552: FlipUVsProcess begin
+Debug, T5552: FlipUVsProcess finished
+Debug, T5552: TriangulateProcess begin
+Info,  T5552: TriangulateProcess finished. All polygons have been triangulated.
+Debug, T5552: SortByPTypeProcess begin
+Info,  T5552: Points: 0, Lines: 0, Triangles: 8, Polygons: 0 (Meshes, X = removed)
+Debug, T5552: SortByPTypeProcess finished
+Debug, T5552: GenFaceNormalsProcess begin
+Debug, T5552: GenFaceNormalsProcess finished. Normals are already there
+Debug, T5552: Generate spatially-sorted vertex cache
+Debug, T5552: CalcTangentsProcess begin
+Info,  T5552: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T5552: Leaving post processing pipeline

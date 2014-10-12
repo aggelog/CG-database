@@ -1,0 +1,23 @@
+﻿Build started 10/24/2012 5:10:23 PM.
+     1>Project "C:\Temp\Users\GP\glGA\_thirdPartyLibs\glew-1.9.0\build\vc10\visualinfo.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "static/debug/visualinfo.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D WIN32_LEAN_AND_MEAN /D VC_EXTRA_LEAN /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\static/debug\\" /Fd".\static/debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\visualinfo.c
+         visualinfo.c
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0409" /nologo /fo"static/debug/visualinfo.res" ..\visualinfo.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/visualinfod.exe" /INCREMENTAL:NO /NOLOGO ../../lib/glew32sd.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"static/debug/visualinfod.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Temp\Users\GP\glGA\_thirdPartyLibs\glew-1.9.0\bin\visualinfod.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/visualinfod.lib" /MACHINE:X86 static/debug/visualinfo.res
+         .\static/debug\visualinfo.obj
+         visualinfo.vcxproj -> C:\Temp\Users\GP\glGA\_thirdPartyLibs\glew-1.9.0\build\vc10\../../bin/visualinfod.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../bin/visualinfod.exe;#1" /manifest static/debug/visualinfod.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "static/debug/visualinfo.unsuccessfulbuild".
+         Touching "static/debug/visualinfo.lastbuildstate".
+     1>Done Building Project "C:\Temp\Users\GP\glGA\_thirdPartyLibs\glew-1.9.0\build\vc10\visualinfo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.89

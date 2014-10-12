@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2C42D1BE-2D83-4F7C-BEAF-9F4FED8D5DAC}</ProjectGuid>
+    <RootNamespace>Chapter17</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/include;../../../_thirdPartyLibs/assimp-3.1.1/include/assimp;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/lib;../../../_thirdPartyLibs/AntTweakBar/lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86);../../../_thirdPartyLibs/assimp/code/Debug</LibraryPath>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../_thirdPartyLibs/glm-0.9.3.4/glm;../../../_thirdPartyLibs/glfw-2.7.6/include/GL;../../../_thirdPartyLibs/glew-1.9.0/include/GL;../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/include/wand;../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/include/Magick++;../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/include/magick;../../../_thirdPartyLibs/AntTweakBar/include;../../../include;../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/include;../../../_thirdPartyLibs/assimp-3.1.1/include/assimp/Compiler;../../../_thirdPartyLibs/assimp-3.1.1/include/assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>USE_MAGICK;NDEBUG;WIN32;NeedFunctionPrototypes;_MAGICKMOD_;_DLL;_VISUALC_;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../../_thirdPartyLibs/glew-1.9.0/lib;../../../_thirdPartyLibs/AntTweakBar/lib;../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/lib;../../../_thirdPartyLibs/glfw-2.7.6/support/msvc100/Debug;../../../_thirdPartyLibs/assimp/code/Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimpd.lib;CORE_RL_magick_.lib;CORE_RL_Magick++_.lib;CORE_RL_wand_.lib;X11.lib;glew32d.lib;opengl32.lib;GLFWDLL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\glGAHelper.cpp" />
+    <ClCompile Include="..\..\..\src\glGAMesh.cpp" />
+    <ClCompile Include="Chapter-17.cpp" />
+    <ClCompile Include="PerlinNoise.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\glGAHelper.h" />
+    <ClInclude Include="..\..\..\include\glGAMesh.h" />
+    <ClInclude Include="PerlinNoise.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\fPlaneShader.frag" />
+    <None Include="Shaders\fshader3D.frag" />
+    <None Include="Shaders\fshader3DNoise.frag" />
+    <None Include="Shaders\vPlaneShader.vert" />
+    <None Include="Shaders\vshader3D.vert" />
+    <None Include="Shaders\vshader3DNoise.vert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

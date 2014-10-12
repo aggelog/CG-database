@@ -1,0 +1,40 @@
+﻿Build started 10/11/2014 12:37:37 PM.
+     1>Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\tools\assimp_cmd\assimp_cmd.vcxproj" on node 4 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/code/Debug/assimpd.dll C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/tools/assimp_cmd/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule C:/Users/aggelog/Desktop/assimp-3.1.1/tools/assimp_cmd/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\tools\assimp_cmd\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\include" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code\BoostWorkaround" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\zlib" /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\contrib\zlib" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ASSIMP_BUILD_BOOST_WORKAROUND /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"assimp_cmd.dir\Debug\\" /Fd"assimp_cmd.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_cmd\CompareDump.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_cmd\ImageExtractor.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_cmd\Main.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_cmd\WriteDumb.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_cmd\Info.cpp" "C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_cmd\Export.cpp"
+         CompareDump.cpp
+         ImageExtractor.cpp
+         Main.cpp
+         WriteDumb.cpp
+         Info.cpp
+         Export.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _WINDOWS /D _DEBUG /D ASSIMP_BUILD_BOOST_WORKAROUND /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\include" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code\BoostWorkaround" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\contrib\zlib" /I"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\contrib\zlib" /I"C:\Users\aggelog\Desktop\assimp-3.1.1\code" /nologo /fo"assimp_cmd.dir\Debug\assimp_cmd.res" C:\Users\aggelog\Desktop\assimp-3.1.1\tools\assimp_cmd\assimp_cmd.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\tools\assimp_cmd\Debug\assimpd.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp" /LIBPATH:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/Debug" /LIBPATH:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/lib" /LIBPATH:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\code\Debug\assimpd.lib ..\..\contrib\zlib\Debug\zlibstaticd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/tools/assimp_cmd/Debug/assimpd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/tools/assimp_cmd/Debug/assimpd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug assimp_cmd.dir\Debug\assimp_cmd.res
+         assimp_cmd.dir\Debug\CompareDump.obj
+         assimp_cmd.dir\Debug\ImageExtractor.obj
+         assimp_cmd.dir\Debug\Main.obj
+         assimp_cmd.dir\Debug\WriteDumb.obj
+         assimp_cmd.dir\Debug\Info.obj
+         assimp_cmd.dir\Debug\Export.obj
+         assimp_cmd.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\tools\assimp_cmd\Debug\assimpd.exe
+     1>Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\tools\assimp_cmd\assimp_cmd.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.37

@@ -1,0 +1,366 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.30723.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/11/2014 12:25:17 PM.
+Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\3.0.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\3.0.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\3.0.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/3.0.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.30723.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/11/2014 12:25:18 PM.
+Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\3.0.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\3.0.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\3.0.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/3.0.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec4062634250.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.30723.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/11/2014 12:25:19 PM.
+Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec4062634250.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4062634250.dir\Debug\".
+  Creating directory "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4062634250.dir\Debug\cmTryCom.80429EBE.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4062634250.dir\Debug\cmTryCom.80429EBE.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4062634250.dir\Debug\\" /Fd"cmTryCompileExec4062634250.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.30723 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4062634250.dir\Debug\\" /Fd"cmTryCompileExec4062634250.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4062634250.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4062634250.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4062634250.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4062634250.dir\Debug\testCCompiler.obj
+  cmTryCompileExec4062634250.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4062634250.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec4062634250.dir\Debug\cmTryCom.80429EBE.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec4062634250.dir\Debug\cmTryCom.80429EBE.tlog\cmTryCompileExec4062634250.lastbuildstate".
+Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec4062634250.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2866274886.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.30723.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/11/2014 12:25:20 PM.
+Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec2866274886.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2866274886.dir\Debug\".
+  Creating directory "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2866274886.dir\Debug\cmTryCom.DE71697D.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2866274886.dir\Debug\cmTryCom.DE71697D.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2866274886.dir\Debug\\" /Fd"cmTryCompileExec2866274886.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.30723 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2866274886.dir\Debug\\" /Fd"cmTryCompileExec2866274886.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2866274886.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2866274886.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2866274886.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2866274886.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec2866274886.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2866274886.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2866274886.dir\Debug\cmTryCom.DE71697D.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2866274886.dir\Debug\cmTryCom.DE71697D.tlog\cmTryCompileExec2866274886.lastbuildstate".
+Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec2866274886.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec43415426.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.30723.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/11/2014 12:25:21 PM.
+Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec43415426.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec43415426.dir\Debug\".
+  Creating directory "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec43415426.dir\Debug\cmTryCom.607A3A7C.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec43415426.dir\Debug\cmTryCom.607A3A7C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec43415426.dir\Debug\\" /Fd"cmTryCompileExec43415426.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.30723 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec43415426.dir\Debug\\" /Fd"cmTryCompileExec43415426.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec43415426.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec43415426.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec43415426.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec43415426.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec43415426.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec43415426.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec43415426.dir\Debug\cmTryCom.607A3A7C.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec43415426.dir\Debug\cmTryCom.607A3A7C.tlog\cmTryCompileExec43415426.lastbuildstate".
+Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec43415426.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1453506769.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.30723.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/11/2014 12:25:22 PM.
+Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec1453506769.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1453506769.dir\Debug\".
+  Creating directory "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1453506769.dir\Debug\cmTryCom.7E2CF71F.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1453506769.dir\Debug\cmTryCom.7E2CF71F.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1453506769.dir\Debug\\" /Fd"cmTryCompileExec1453506769.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.30723 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1453506769.dir\Debug\\" /Fd"cmTryCompileExec1453506769.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1453506769.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1453506769.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1453506769.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1453506769.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec1453506769.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1453506769.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1453506769.dir\Debug\cmTryCom.7E2CF71F.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1453506769.dir\Debug\cmTryCom.7E2CF71F.tlog\cmTryCompileExec1453506769.lastbuildstate".
+Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec1453506769.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1658104456.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.30723.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/11/2014 12:25:24 PM.
+Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec1658104456.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1658104456.dir\Debug\".
+  Creating directory "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1658104456.dir\Debug\cmTryCom.0F79B7F9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1658104456.dir\Debug\cmTryCom.0F79B7F9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1658104456.dir\Debug\\" /Fd"cmTryCompileExec1658104456.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.30723 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1658104456.dir\Debug\\" /Fd"cmTryCompileExec1658104456.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1658104456.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1658104456.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1658104456.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1658104456.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1658104456.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1658104456.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1658104456.dir\Debug\cmTryCom.0F79B7F9.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1658104456.dir\Debug\cmTryCom.0F79B7F9.tlog\cmTryCompileExec1658104456.lastbuildstate".
+Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec1658104456.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.62
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3517415980.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.30723.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/11/2014 12:25:24 PM.
+Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec3517415980.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3517415980.dir\Debug\".
+  Creating directory "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3517415980.dir\Debug\cmTryCom.4D29DFA5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3517415980.dir\Debug\cmTryCom.4D29DFA5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3517415980.dir\Debug\\" /Fd"cmTryCompileExec3517415980.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.30723 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3517415980.dir\Debug\\" /Fd"cmTryCompileExec3517415980.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3517415980.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3517415980.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3517415980.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3517415980.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3517415980.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3517415980.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3517415980.dir\Debug\cmTryCom.4D29DFA5.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3517415980.dir\Debug\cmTryCom.4D29DFA5.tlog\cmTryCompileExec3517415980.lastbuildstate".
+Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec3517415980.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.58
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2100969053.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.30723.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/11/2014 12:25:25 PM.
+Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec2100969053.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2100969053.dir\Debug\".
+  Creating directory "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2100969053.dir\Debug\cmTryCom.A84D699B.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2100969053.dir\Debug\cmTryCom.A84D699B.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2100969053.dir\Debug\\" /Fd"cmTryCompileExec2100969053.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.30723 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2100969053.dir\Debug\\" /Fd"cmTryCompileExec2100969053.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2100969053.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2100969053.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aggelog/Dropbox/Final_Thesis_cs499/Source/glGA-StudentEdition/glGA/_thirdPartyLibs/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2100969053.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2100969053.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec2100969053.vcxproj -> C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2100969053.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2100969053.dir\Debug\cmTryCom.A84D699B.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2100969053.dir\Debug\cmTryCom.A84D699B.tlog\cmTryCompileExec2100969053.lastbuildstate".
+Done Building Project "C:\Users\aggelog\Dropbox\Final_Thesis_cs499\Source\glGA-StudentEdition\glGA\_thirdPartyLibs\assimp\CMakeFiles\CMakeTmp\cmTryCompileExec2100969053.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.58
+
+

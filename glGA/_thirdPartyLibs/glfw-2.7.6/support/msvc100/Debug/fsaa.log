@@ -1,0 +1,15 @@
+﻿Build started 10/24/2012 5:12:22 PM.
+     1>Project "C:\Temp\Users\GP\glGA\_thirdPartyLibs\glfw-2.7.6\support\msvc100\fsaa.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\fsaa.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(275,5): warning MSB6008: Forcing a rebuild of all sources due to an error with the tracking logs. The process cannot access the file 'C:\Temp\Users\GP\glGA\_thirdPartyLibs\glfw-2.7.6\support\msvc100\Debug\link.3816-cvtres.read.1.tlog' because it is being used by another process.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(275,5): error MSB6003: The specified task executable "link.exe" could not be run. The process cannot access the file 'C:\Temp\Users\GP\glGA\_thirdPartyLibs\glfw-2.7.6\support\msvc100\Debug\link.3564-cvtres.read.1.tlog' because it is being used by another process.
+     1>Done Building Project "C:\Temp\Users\GP\glGA\_thirdPartyLibs\glfw-2.7.6\support\msvc100\fsaa.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.09

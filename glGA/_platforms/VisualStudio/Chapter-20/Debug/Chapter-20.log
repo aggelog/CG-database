@@ -1,0 +1,40 @@
+﻿Build started 10/12/2014 10:39:33 AM.
+     1>Project "C:\Users\aggelog\Desktop\CG-database\glGA\_platforms\VisualStudio\Chapter-20\Chapter-20.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"../../../_thirdPartyLibs/glm-0.9.3.4/glm" /I"../../../_thirdPartyLibs/glfw-2.7.6/include/GL" /I"../../../_thirdPartyLibs/glew-1.9.0/include/GL" /I"../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/include/wand" /I"../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/include/Magick++" /I"../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/include/magick" /I../../../_thirdPartyLibs/AntTweakBar/include /I../../../include /I"../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/include" /I"../../../_thirdPartyLibs/assimp-3.1.1/include/assimp/Compiler" /I"../../../_thirdPartyLibs/assimp-3.1.1/include/assimp" /ZI /nologo /W3 /WX- /Od /Oy- /D USE_MAGICK /D NDEBUG /D WIN32 /D NeedFunctionPrototypes /D _MAGICKMOD_ /D _DLL /D _VISUALC_ /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\glGAHelper.cpp ..\..\..\src\glGAMesh.cpp "Chapter-20.cpp"
+         Chapter-20.cpp
+     1>c:\users\aggelog\desktop\cg-database\glga\_thirdpartylibs\glm-0.9.3.4\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+         MagickCore lib DLL import interface
+         MagickCore module DLL export interface
+         MagickWand lib DLL import interface
+         MagickWand module DLL export interface
+         Magick++ lib DLL import
+         glGAMesh.cpp
+     1>c:\users\aggelog\desktop\cg-database\glga\_thirdpartylibs\glm-0.9.3.4\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+         MagickCore lib DLL import interface
+         MagickCore module DLL export interface
+         MagickWand lib DLL import interface
+         MagickWand module DLL export interface
+         Magick++ lib DLL import
+         glGAHelper.cpp
+         MagickCore lib DLL import interface
+         MagickCore module DLL export interface
+         MagickWand lib DLL import interface
+         MagickWand module DLL export interface
+         Magick++ lib DLL import
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aggelog\Desktop\CG-database\glGA\_platforms\VisualStudio\glGA\Debug\Chapter-20.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"../../../_thirdPartyLibs/glew-1.9.0/lib" /LIBPATH:../../../_thirdPartyLibs/AntTweakBar/lib /LIBPATH:"../../../_thirdPartyLibs/ImageMagick-6.8.0-Q16/lib" /LIBPATH:"../../../_thirdPartyLibs/glfw-2.7.6/support/msvc100/Debug" /LIBPATH:../../../_thirdPartyLibs/assimp/code/Debug assimpd.lib CORE_RL_magick_.lib CORE_RL_Magick++_.lib CORE_RL_wand_.lib X11.lib glew32d.lib opengl32.lib GLFWDLL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\aggelog\Desktop\CG-database\glGA\_platforms\VisualStudio\glGA\Debug\Chapter-20.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\aggelog\Desktop\CG-database\glGA\_platforms\VisualStudio\glGA\Debug\Chapter-20.lib" /MACHINE:X86 Debug\glGAHelper.obj
+         Debug\glGAMesh.obj
+         "Debug\Chapter-20.obj"
+     1>glGAHelper.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         Chapter-20.vcxproj -> C:\Users\aggelog\Desktop\CG-database\glGA\_platforms\VisualStudio\glGA\Debug\Chapter-20.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"C:\Users\aggelog\Desktop\CG-database\glGA\_platforms\VisualStudio\glGA\Debug\Chapter-20.bsc" /n Debug\glGAHelper.sbr Debug\glGAMesh.sbr "Debug\Chapter-20.sbr"
+     1>Done Building Project "C:\Users\aggelog\Desktop\CG-database\glGA\_platforms\VisualStudio\Chapter-20\Chapter-20.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.82
