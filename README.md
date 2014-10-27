@@ -47,3 +47,5 @@ Chapter-18 : Non-photorealistic Rendering
 Chapter-19 : Blend Modes
 
 Chapter-20 : Interactive Water Caustics/Reflection/Refraction
+
+You will find some output samples here : https://www.youtube.com/user/aggelog21/videos
